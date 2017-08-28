@@ -37,3 +37,5 @@ config :rsvp, Rsvp.Repo,
   database: "rsvp",
   username: System.get_env("DB_USER"),
   password: ""
+
+import_config "#{Mix.env}.exs"
