@@ -1,0 +1,21 @@
+{
+  "name": "rsvp_web",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ricardo Cesar de Oliveira <rcoproc@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/taylonr/rsvp_umbrella",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
