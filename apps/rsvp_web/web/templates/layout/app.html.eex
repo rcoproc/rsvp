@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>.: RVSPWEB :.</title>
+    <title>.: ExEvents :.</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
@@ -19,7 +19,7 @@
     </ul>
 
     <div class="container">
-      <h1> <%= link("RSVP", to: "/events" ) %> Your online directory of events</h1>
+      <h1> <%= link("ExEvents", to: "/events" ) %> Your online directory of events</h1>
       <hr>
       <%= if @conn.cookies["user_name"] do %>
         <span>
