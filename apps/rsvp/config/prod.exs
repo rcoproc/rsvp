@@ -1,5 +1,7 @@
 use Mix.Config
 
+config :rsvp, ecto_repos: [Rsvp.Repo]
+
 config :rsvp, Rsvp.Repo,
   adapter: Ecto.Adapters.Postgres,
   url: System.get_env("DATABASE_URL"),
